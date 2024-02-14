@@ -12,11 +12,16 @@ h1{
     font-weight: 100;
     font-size: 6rem;
     color: rgb(200, 207, 212);
+	text-shadow: 0 0 8px cyan;
 }
+/* b{
+	text-decoration: underline;
+} */
 h2{
 	text-decoration: underline;
 	font-size: 2vw;
 	margin: 2vh 0;
+	margin-left: 0vh;
 }
 .buff{
 	padding-left: 3vw;
@@ -28,6 +33,10 @@ h2{
 p{
 	font-size: 1.15vw;
 }
+pre{
+	font-size: 1.25vw;
+	text-shadow: 0 0 3px cyan;
+}
 a{
     text-decoration: none;
     color:rgb(200, 207, 212);
@@ -37,17 +46,14 @@ main{
     margin: 0vw 10vw;
     margin-bottom: 2vh;
 }
-footer{
-    /* background-color: red; */
-}
 header{
     position:relative;
 }
 table{
 	color:white;
 }
-tr{
-	border-bottom: 1px solid white;
+td{
+	text-align:center;
 }
 .back_to_index{
     position: absolute;
@@ -57,12 +63,17 @@ tr{
     height: 34%;
     display: grid;
     place-content: center;
+	text-shadow: 0 0 5px gray;
+	font-size: 1.5vw;
+	text-transform: capitalize;
     box-shadow: 0px 0px 18px #708aba;
     border: 2px solid white;
     border-radius: 10px;
     transition: ease-in .4s box-shadow,ease-in .4s background-color;
 }
-
+li{
+	margin-bottom:1vh;
+}
 .back_to_index:hover{
     background-color: hsl(219, 35%, 25%);
     box-shadow: 0px 0px 8px #708aba;
@@ -81,17 +92,23 @@ tr{
     /* background-color: orange; */
     display:grid;
     place-content: center;
-    border:2px solid white;
+    border:1px solid white;
     border-radius:8px;
     
-    transition: ease-in .3s background-color;
+    transition: ease-in .3s background-color, ease-in .3s text-shadow;
 }
 .whiter ul a:hover{
     background-color: hsl(219, 35%, 35%);
+	text-shadow: 0 0 10px black;
+}
+.whiter ul li{
+	margin-bottom:0vh;
+	text-transform: uppercase;
 }
 .whiter{
     margin: 0% 30%;
 	margin-bottom: 5%;
+	margin-top: 3%;
     padding: 0% ;
     width: 40%;
     height: 6%;

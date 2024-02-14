@@ -12,13 +12,19 @@ h1{
     font-size: 100px;
     color: rgb(200, 207, 212);
 }
+h3{
+	text-align: center;
+    text-transform: uppercase;
+    font-weight: 50;
+    font-size: 35px;
+    color: rgb(200, 207, 212);
+}
 a{
     text-decoration: none;
     color:rgb(200, 207, 212);
 }
 main{
     height: 70%;
-    /* border: 2px dashed white; */
 }
 header{
 	margin-bottom: 7vh;
@@ -42,6 +48,7 @@ footer{
     box-shadow: 0px 0px 20px #708aba;
     border:2px solid white;
 	transition: ease-in .2s box-shadow,ease-in .2s background-color;
+    text-shadow: 0 0 50px rgb(197, 197, 197);
 }
 .chapters:hover{
 	background-color: hsl(219, 35%, 35%);
@@ -49,4 +56,10 @@ footer{
 }
 .container{
     margin: 0 30% 2% 30%;
+}
+.glow{
+	text-shadow: 0px 0px 10px teal;
+}
+.under{
+	border-bottom: 1px solid white;
 }
