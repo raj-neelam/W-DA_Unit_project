@@ -1,0 +1,11 @@
+&lt;head&gt;<br>
+  &lt;style&gt;<br>
+    h1 {<br>
+      color: blue;<br>
+      font-size: 20px;<br>
+    }<br>
+  &lt;/style&gt;<br>
+&lt;/head&gt;<br>
+&lt;body&gt;<br>
+  &lt;h1&gt;This is a heading&lt;/h1&gt;<br>
+&lt;/body&gt;<br>

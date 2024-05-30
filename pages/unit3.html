@@ -1,0 +1,206 @@
+<html>
+
+<head>
+    <title>UNIT-3</title>
+    <link rel="stylesheet" href="styles/unit.css">
+</head>
+
+<body>
+    <header>
+        <a href="../index.html" class="backIndex">
+            <div class="back_to_index">
+                Back to Index
+            </div>
+        </a>
+        <h1>unit-3</h1>
+        <div class="whiter">
+            <ul>
+                <a href="../index.html">
+                    <li>index</li>
+                </a>
+                <a href="unit1.html">
+                    <li>unit 1</li>
+                </a>
+                <a href="unit2.html">
+                    <li>unit 2</li>
+                </a>
+                <a href="unit3.html">
+                    <li>unit 3</li>
+                </a>
+                <a href="unit4.html">
+                    <li>unit 4</li>
+                </a>
+                <a href="unit5.html">
+                    <li>unit 5</li>
+                </a>
+            </ul>
+        </div>
+    </header>
+
+    <main>
+        <h2>What is css</h2>
+        <p class="buff">CSS stands for Cascading Style Sheets.
+            It's a language specifically designed to style and layout web pages. While HTML provides the structure and
+            content of a webpage, CSS controls how it looks
+        </p>
+        <H2>History of CSS</H2>
+        <p class="buff">
+            The history of CSS is tied to the early days of the web itself. In the mid-1990s, web designers were frustrated by the limitations of HTML, which primarily focused on structuring content.
+        </p>
+        <div class="buff">
+            <ul class="buff">
+                <li>
+                    1994:
+    Håkon Wium Lie, a pioneer in web development, proposes the concept of CSS. His vision was to separate content (HTML) from presentation (CSS) for a more manageable web
+                </li>
+                <li>
+                    1996: The World Wide Web Consortium (W3C) publishes the first official specification for CSS, known as CSS1. This initial version offered basic styling options like font properties, margins, colors, and a foundation for layout with the box model.
+                </li>
+                <li>
+                    1998: CSS2 arrives, bringing more advanced features like more precise selectors, positioning elements, and the ability to tailor web pages for different media types (print, screen, etc.). Development on the next iteration, CSS3, also begins around this time.
+                </li>
+                <li>
+                    2011: CSS3 marks a significant shift. Instead of a single large spec, it's released as a collection of modules, each addressing specific functionalities. This modular approach allows for more flexibility and ongoing additions of new features like animations, transformations, and improved font handling.
+                </li>
+            </ul>
+        </div>
+        <p class="buff">
+            CSS continues to evolve today, with new modules and features constantly being developed. It plays a critical role in creating visually appealing, user-friendly, and responsive websites that adapt to different devices and screen sizes
+        </p>
+        <h2>Versions of CSS</h2>
+        <p class="buff">
+            CSS has gone through several versions, each adding new capabilities and improving on the previous ones. Here's a breakdown of the main versions:
+        </p>
+        <div class="buff">
+            <ul class="buff">
+                <li>CSS1 (1996):
+                    The first official specification for CSS, it introduced foundational styling for text, fonts, margins, colors, and backgrounds.</li>
+                <li>CSS2 (1998):
+                    Built on CSS1, adding more advanced selectors, positioning options, media types for different devices, and other features.</li>
+                <li>CSS2.1 (2011):
+                    An important revision fixing inconsistencies in CSS2 and achieving wider browser support.</li>
+                <li>CSS3 (1999-present):
+                    Rather than a single release, CSS3 is a collection of modules introducing new features like animations, transformations, flexbox, grids, and more. Each module is standardized independently, allowing for ongoing development and browser adoption.</li>
+            </ul>
+        </div>
+        <h2>Browser support</h2>
+        <p class="buff">
+            Browser support refers to the 
+compatibility of a website or web application across different web browsers. This includes ensuring the website functions as intended, displays correctly, and offers a good user experience on various browsers used on desktops, mobiles, and tablets.
+        </p>
+        <h2>What’s new in CSS3</h2>
+        <p class="buff">
+            CSS3 revolutionized web design with a vast array of new features.
+ From stunning visual effects like shadows, gradients, and rounded corners to powerful layout systems like flexbox and grids, CSS3 gave web developers more control and flexibility than ever before. Animations, transitions, and improved font handling further enhanced the creative possibilities. While browser support continues to evolve, CSS3 paved the way for a new era of dynamic, interactive, and visually engaging websites.
+        </p>
+        <h2>CSS Vs CSS3</h2>
+        <p>
+            <p class="ital">CSS (Cascading Style Sheets)</p>
+            <ul class="buff">
+                <li>The original version, released in 1996</li>
+                <li>
+                    Lays the foundation for styling web pages</li>
+                <li>
+                    Offers basic formatting features like font styles, colors, positioning elements</li>
+            </ul>
+            <p class="ital">CSS3 (Cascading Style Sheets Level 3)</p>
+            <ul class="buff">
+                <li>Released in 2005 as a major update to CSS</li>
+                <li>Includes all the features of CSS</li>
+                <li>Adds a lot of new capabilities for more advanced design and functionality</li>
+            </ul>
+        </p>
+        <h2>Types Of CSS</h2>
+        <p class="ital">Inline CSS:</p>
+        <ol class="buff">
+            <li>Styles are applied directly to the HTML element using the style attribute.</li>
+            <li>Offers fine-grained control but can lead to messy and hard-to-maintain code.</li>
+        </ol>
+        <p class="ital">Internal CSS (Embedded CSS):</p>
+        <ol class="buff">
+            <li>Styles are defined within the &lt;style&gt; tag in the &lt;head&gt; section of the HTML document.</li>
+            <li>Offers fine-grained control but can lead to messy and hard-to-maintain code.</li>
+        </ol>
+        <p class="ital">External CSS:</p>
+        <ol class="buff">
+            <li>Styles are defined in a separate CSS file (.css) linked to the HTML document using the &lt;link&gt; tag in the &lt;head&gt; section.</li>
+            <li>Most preferred method for larger projects as it promotes code reusability and easier maintenance.
+                Styles can be applied to multiple HTML pages.</li>
+        </ol>
+        <h2>How to use in HTML document?</h2>
+        <p class="ital buff">Inline CSS:</p>
+        <div class="example">
+            &lt; h1 style="color: blue; font-size: 20px" &gt; This is a heading &lt;/h1&gt;
+        </div>
+        <p class="ital buff gap">Internal CSS (Embedded CSS)</p>
+        <div class="example">
+
+            &lt;head&gt;<br>
+                <div class="buff">
+                    &lt;style&gt;<br>
+                    <div class="buff">
+                        h1 {<br>
+                            <div class="buff">
+                                color: blue;<br>
+                                font-size: 20px;<br></div>
+                        }<br>
+                    </div>
+                    &lt;/style&gt;<br>
+                </div>
+            &lt;/head&gt;<br>
+
+            &lt;body&gt;<br>
+                <div class="buff">
+                    &lt;h1&gt;This is a heading&lt;/h1&gt;<br>
+                </div>
+            &lt;/body&gt;<br>
+        </div>
+        <p class="ital buff gap">External CSS:</p>
+        <div class="buff"><p class="buff">External CSS is the preferred method for most projects. Styles are defined in a separate CSS file with the .css extension. This file is then linked to your HTML document using the <link> tag placed in the <head> section.</p>
+            <div class="example buff">&lt;link rel="stylesheet" type="text/css" href="mystyles.css"&gt;</div>
+        </div>
+        <h2>CSS Selectors and Their Types</h2>
+        <p class="ital">CSS selectors are the foundation of applying styles to your HTML elements using CSS. They act like instructions, telling the browser which elements on the page you want to style. There are different types of selectors, each offering a way to target elements with varying degrees of specificity.</p>
+        <ul class="buff">
+            <li>
+                <p class="ital">Simple Selector</p>  <p class="buff">Selects elements by their HTML tag name (e.g., h1, p, div).</p>
+              </li>
+              <li>
+                <p class="ital">ID Selector</p>  <p class="buff">Targets elements with a unique identifier specified by the id attribute. (e.g., #main-heading)</p>
+              </li>
+              <li>
+                <p class="ital">Class Selector</p>  <p class="buff">Targets elements with a specific class assigned using the class attribute. (e.g., .important)</p>
+              </li>
+              <li>
+                <p class="ital">Universal Selector</p>  <p class="buff">Targets All elements</p>
+              </li>
+        </ul>
+    </main>
+
+    <footer>
+        <div class="whiter">
+            <ul>
+                <a href="../index.html">
+                    <li>index</li>
+                </a>
+                <a href="unit1.html">
+                    <li>unit 1</li>
+                </a>
+                <a href="unit2.html">
+                    <li>unit 2</li>
+                </a>
+                <a href="unit3.html">
+                    <li>unit 3</li>
+                </a>
+                <a href="unit4.html">
+                    <li>unit 4</li>
+                </a>
+                <a href="unit5.html">
+                    <li>unit 5</li>
+                </a>
+            </ul>
+        </div>
+    </footer>
+</body>
+
+</html>
